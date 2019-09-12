@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #434343;
+}
+
+div{
+  font-family: 'Livvic', sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: #fa8900;
+}
+
+img {
+  max-width: 200px;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#accordion{
+  margin-bottom: 60px;
+}
+
+#selectForm, #questionPicker, #routerButton, #createTournament {
+  display: none;
+}
+
+#homepage{
+  height: 700px;
+}
+
+.title{
+  font-size: 50px;
+  text-align: center;
+  color: #fa8900;
+  position: absolute;
+  top: 37%;
+  width: 100%;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    text-transform: uppercase;
+    left: 50%;
+    color: #fa8900;
+    border-color: #fa8900;
+}
+
+
+.color{
+  border-color: #434343;
+  text-align: center;
+  background-color: #434343;
+  color: #fa8900;
+}
+
+.textColor{
+  color: #fa8900;
+  font-size: 20px;
+}
+
+.btn-link:hover,.button:disabled,
+.btn.active {
+      color: #fa8900 ;
+      text-decoration: none;
+    }
+
+.centered {
+  height: 100vh; /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navButtons{
+  font-size: 20px;
+  color: #fa8900 !important;
+  border-color: #fa8900;
+  margin-left: auto ;
+}
